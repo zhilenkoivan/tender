@@ -404,9 +404,6 @@ li > a {
     text-transform: uppercase;
     color: #3a3a3a;
 }
-.myTabs > .swiper-slide {
-    width: 100% !important;
-}
 .tab__content {
     padding: 24px;
     background-color: #f1f1f1;
@@ -643,7 +640,7 @@ li > a {
 .myTabs-2 {
     margin-bottom: 40px;
     border-bottom: 1px solid #3a3a3a;
-    z-index: 10;
+    z-index: 10 !important;
 }
 .objects {
     display: grid;
@@ -652,6 +649,7 @@ li > a {
     margin-bottom: 40px;
     position: relative;
 }
+
 .object__item {
     display: flex;
     width: 100%;
@@ -786,9 +784,6 @@ footer {
 }
 .menu__right-icon-none {
     display: none;
-}
-.swiper-slide {
-    flex-shrink: 1 !important;
 }
 @media (max-width: 1400px) {
     .tender {
@@ -1032,4 +1027,8 @@ footer {
         justify-content: space-between;
         flex-direction: column;
     }
+}
+.swiper-slide {
+    width: 100% !important;
+    flex-shrink: 1 !important;
 }

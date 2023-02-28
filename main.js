@@ -17,7 +17,10 @@ var swiper = new Swiper(".mySwiper", {
     watchSlidesProgress: true,
     slidesPerView: 3,
   });
-
+  // var swiper = new Swiper(".myTabs-3", {
+  //   watchSlidesProgress: true,
+  //   slidesPerView: 3,
+  // });
   (function() {
     const header = document.querySelector('.header');
     const links = document.querySelector('.links');
